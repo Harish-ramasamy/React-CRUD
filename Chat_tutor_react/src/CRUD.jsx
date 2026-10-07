@@ -11,10 +11,11 @@ export default function FormFn() {
         password:"",
         cnf_password:""
     })
-    const [contact, setContact] = useState([15]);
+    const [contact, setContact] = useState([]);
 
     const formSubmit = (e) => {
         e.preventDefault()
+        // setContact(e)
     }
 
   return (

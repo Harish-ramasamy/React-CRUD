@@ -23,15 +23,16 @@
   display: flex;
   flex-direction: column;
 }
+
 form {
   width: 82%;
 }
+
 .form {
-  width: 100%;
+  width: 76%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   gap: 40px;
 }
@@ -58,15 +59,26 @@ form {
   background: #12c712;
 }
 
-.cncl_btn{
+.cncl_btn {
   background: white;
 }
-.password-div input{
-position: relative;
-    left: 25px;
-}
-.password-div span{
+
+.password-div input {
   position: relative;
-    left: -9px;
-    top: 6px;
+  left: 25px;
+}
+
+.password-div span {
+  position: relative;
+  left: -9px;
+  top: 6px;
+}
+
+form {
+  width: 26%;
+  height: 56%;
+  background-color: #d3d3d3;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
